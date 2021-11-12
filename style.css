@@ -1,0 +1,232 @@
+
+* {
+    font-family: "微軟正黑體";
+}
+
+.jumbotron {
+    background-image     : url("image/header.jpg");
+    background-position  : center;
+    background-repeat    : no-repeat;
+    background-size      : cover;
+    background-attachment: fixed;
+    display              : flex;
+    justify-content      : center;
+    align-items          : center;
+    min-height           : 100vh;
+    text-align           : center;
+    font-weight          : 900;
+    user-select          : none;
+}
+
+.shortLine {
+    max-width       : 100px;
+    border          : 2px solid #E34883;
+    background-color: #E34883;
+    margin          : 10px auto;
+    opacity         : 1;
+}
+
+.title {
+    color         : #ffffff;
+    letter-spacing: 5px;
+}
+
+.subTitle {
+    color              : #fff;
+    -webkit-text-stroke: 1px #E34883;
+    font-weight        : 900;
+}
+
+section {
+    padding: 30px 0;
+}
+
+.section_ask {
+    background-color: #EABE85;
+}
+
+.hand {
+    height             : 250px;
+    background-image   : url("/image/hand.png");
+    background-position: center;
+    background-repeat  : no-repeat;
+    background-size    : contain;
+    mix-blend-mode     : multiply;
+}
+
+.statement {
+    display        : flex;
+    justify-content: center;
+    align-items    : flex-start;
+    flex-direction : column;
+}
+
+.img_wrap {
+    height  : 350px;
+    overflow: hidden;
+}
+
+.img_wrap img {
+    width: 100%;
+}
+
+.ruleBox {
+    display: flex;
+    margin : 30px 0;
+}
+
+.section_story {
+    background-color: #222;
+    color           : white;
+    padding         : 0;
+}
+
+.mapBox {
+    background-image : url("./image/map.png");
+    background-size  : 100% auto;
+    background-repeat: no-repeat;
+    height           : 450px;
+}
+
+i {
+    font-size: 40px;
+}
+
+.stories {
+    text-align     : center;
+    padding        : 10px;
+    display        : flex;
+    justify-content: center;
+    align-items    : center;
+    flex-direction : column;
+}
+
+.rulContent {
+    text-align: justify;
+}
+
+.section_future img {
+    width: 100%;
+}
+
+.icons {
+    font-size: 30px;
+    margin   : 10px 0;
+}
+
+.futureBox {
+    display        : flex;
+    justify-content: center;
+    align-items    : center;
+    flex-direction : column;
+}
+
+.futureGroup {
+    width : 100%;
+    margin: 10px 0;
+}
+
+.jumbotron_footer {
+    background-image     : url("image/footer.png");
+    background-position  : center;
+    background-repeat    : no-repeat;
+    background-size      : cover;
+    background-attachment: fixed;
+    display              : flex;
+    justify-content      : center;
+    align-items          : center;
+    text-align           : center;
+    font-weight          : 900;
+    user-select          : none;
+    min-height           : 100vh;
+    color                : #ffffff;
+    font-weight          : 900;
+}
+
+.monster {
+    margin     : 10px 0;
+    font-weight: 900;
+}
+
+.container_footer {
+    width           : 70%;
+    padding         : 50px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius   : 10px;
+}
+
+.readyBtn {
+    border          : none;
+    background-color: #E34883;
+    font-size       : 20px;
+    font-weight     : 700;
+    color           : #ffffff;
+    margin          : 10px;
+    padding         : 10px 20px;
+    letter-spacing  : 2px;
+    border-radius   : 5px;
+}
+
+.short_input {
+    background-color: transparent;
+    max-width       : 250px;
+    margin          : 5px auto;
+}
+
+.navbar-right {
+    display        : flex;
+    justify-content: flex-end;
+    align-items    : center;
+}
+
+.navbar-top {
+    background-color: transparent !important;
+}
+
+.navbar-top a {
+    color    : white !important;
+    transform: 0.5s;
+}
+
+.navbar-top .nav-link:hover {
+    color    : #E34883 !important;
+    transform: 0.5s;
+}
+
+#navbar {
+    transition: 0.5s;
+}
+
+@media (max-width: 1024px) {
+    .img_wrap {
+        height: 300px;
+    }
+}
+
+@media (max-width: 974px) {
+    .img_wrap {
+        height: 220px;
+    }
+}
+
+@media (max-width: 540px) {
+    .img_wrap {
+        height: 350px;
+    }
+
+    .ruleBox {
+        width          : 100%;
+        justify-content: space-around;
+    }
+}
+
+@media (max-width: 320px) {
+    .img_wrap {
+        height: 220px;
+    }
+
+    .container_footer {
+        width  : 90%;
+        padding: 20px;
+    }
+}
