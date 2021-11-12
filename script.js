@@ -6,5 +6,3 @@ window.addEventListener("scroll", function (evt) {
         document.querySelector("#navbar").classList.add("navbar-top")
     }
 })
-
-let s = skrollr.init();
