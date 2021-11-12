@@ -46,7 +46,7 @@ section {
 
 .hand {
     height             : 250px;
-    background-image   : url("/image/hand.png");
+    background-image   : url("./image/hand.png");
     background-position: center;
     background-repeat  : no-repeat;
     background-size    : contain;
